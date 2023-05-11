@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Supply Chain Management</title>
+</head>
+<body>
+  <h1>Supply Chain Management</h1>
+
+  <form id="create-product-form">
+    <h2>Create Product</h2>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="description">Description:</label>
+    <input type="text" name="description" id="description">
+    <br>
+    <label for="price">Price:</label>
+    <input type="number" name="price" id="price">
+    <br>
+    <button type="submit">Create</button>
+  </form>
+
+  <form id="purchase-product-form">
+    <h2>Purchase Product</h2>
+    <label for="product-id">Product ID:</label>
+    <input type="number" name="product-id" id="product-id">
+    <br>
+    <label for="amount">Amount:</label>
+    <input type="number" name="amount" id="amount">
+    <br>
+    <button type="submit">Purchase</button>
+  </form>
+
+  <form id="ship-product-form">
+    <h2>Ship Product</h2>
+    <label for="product-id">Product ID:</label>
+    <input type="number" name="product-id" id="product-id">
+    <br>
+    <label for="shipper">Shipper:</label>
+    <input type="text" name="shipper" id="shipper">
+    <br>
+    <button type="submit">Ship</button>
+  </form>
+
+  <form id="receive-product-form">
+    <h2>Receive Product</h2>
+    <label for="product-id">Product ID:</label>
+    <input type="number" name="product-id" id="product-id">
+    <br>
+    <button type="submit">Receive</button>
+  </form>
+
+  <script src="./app.js"></script>
+</body>
+</html>
